@@ -1,6 +1,6 @@
 # Code by Simon Monk https://github.com/simonmonk/
 
-from ... import MFRC522
+from . import MFRC522
 import Jetson.GPIO as GPIO
   
 class SimpleMFRC522:
